@@ -1,3 +1,23 @@
+import streamlit as st
+import pickle
+
+# Title
+st.title("Spam Message Detector 📩")
+
+# Input box
+message = st.text_input("Enter your message")
+
+# Button
+if st.button("Check"):
+    if message == "":
+        st.write("Please enter a message")
+    else:
+        # Dummy logic (replace with your model)
+        if "free" in message.lower():
+            st.write("Spam ❌")
+        else:
+            st.write("Not Spam ✅")
+
 # Step 1: Import libraries
 import pandas as pd
 import numpy as np
