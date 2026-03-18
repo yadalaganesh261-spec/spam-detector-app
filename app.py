@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Title
-st.title("Spam Message Detector ganesh 📩")
+st.title("Spam Message Detector Ganesh 📩")
 
 # Input box
 message = st.text_input("Enter your message")
