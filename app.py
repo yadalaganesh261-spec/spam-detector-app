@@ -65,3 +65,27 @@ while True:
         print("🚫 This is SPAM message")
     else:
         print("✅ This is NOT SPAM")
+import streamlit as st
+import pickle
+
+# Load ML model & vectorizer
+model = pickle.load(open("spam_model.pkl","rb"))
+vectorizer = pickle.load(open("vectorizer.pkl","rb"))
+
+# App title
+st.title("Ganesh Spam Message Detector 🚀")
+
+# Instructions
+st.markdown("**Instructions:** Type any SMS message below and click the button to check if it's spam or not.")
+
+# Input box
+message = st.text_input("Enter your message here")
+
+# Button
+if st.button("Check Spam"):
+    if message.strip() == "":
+        st.write("⚠️ Please enter a message!")
+    else:
+        vect = vectorizer.transform([message])
+        prediction = model.predict(vect)
+        st.write(f"Prediction: **{prediction[0]}**")
