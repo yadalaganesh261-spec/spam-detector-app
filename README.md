@@ -8,7 +8,8 @@ Developed a machine learning-based web application that classifies messages as s
 website applink
 https://spam-detector-app-8yeyxnszb9uiuqymutxuug.streamlit.app/
 
-#screenshot
-app screenshot jpg1
-app screenshot jpg2
+#screenshots.
+
+![App](screenshot1.jpg)
+![App](screenshot2.jpg)
 
