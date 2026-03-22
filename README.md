@@ -12,4 +12,6 @@ https://spam-detector-app-8yeyxnszb9uiuqymutxuug.streamlit.app/
 
 ![App](screenshot1.jpg)
 ![App](screenshot2.jpg)
+![App](screenshot3.jpg)
+![App](screenshot4.jpg)
 
