@@ -3,7 +3,7 @@ Project Title: Spam Email Detection Web App
 Technologies: Python, Streamlit, GitHub
 
 Description:
-Developed a machine learning-based web application that classifies messages as spam or not spam. Deployed the app using Streamlit Cloud for real-time predictions.https://spam-detector-app-8yeyxnszb9uiuqymutxuug.streamlit.app/
+Developed a machine learning-based web application that classifies messages as spam or not spam. Deployed the app using Streamlit Cloud for real-time predictions.
 
 website applink
 https://spam-detector-app-8yeyxnszb9uiuqymutxuug.streamlit.app/
